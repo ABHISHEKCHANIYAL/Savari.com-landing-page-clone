@@ -1,0 +1,350 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width:100%;
+  
+    position: absolute;
+    /* background-image: url(https://img.freepik.com/premium-vector/monochrome-mandala-background_1442-33875.jpg?w=1380); */
+    background-position :bottom;
+    background-size:cover;
+    
+
+}
+
+.main{
+    background-color: white;
+   display: flex;
+    width:100%;
+    height: 70px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+img{
+
+    padding:5px;
+    height:80px;
+    font-size:20px;
+}
+#imgg{
+    width:100%;
+    height:250px;
+    background-image: url(https://images.unsplash.com/photo-1604182049604-4a9d97a854d7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position:center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+#imgg h1{
+ color: white;
+ font-size:50px;
+ font-weight:200px;
+}
+#box{
+    
+    color: black;
+    margin-top:-90px;
+     margin-left:23%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width:55%;
+    height:170px;
+    background-color:white;
+    border: none;
+    border-radius:15px;
+    box-shadow:1px 1px 2px 2px rgba(200,200, 200,1.5);
+}
+
+.class{
+    /* padding: 10px; */
+    margin-top:20px;
+}
+button{
+    position: absolute;
+    display:flex ;
+    justify-content:center;
+    margin-bottom:-185px;
+    color: white;
+    font-size: 20px;
+    font-weight:80px;
+    padding: 10px 40px;
+    text-align: center;
+    
+    background-color:rgb(0, 183, 255);
+    border:none;
+    border-radius:4px;
+}
+.x1{
+    display: flex;
+    flex-direction:column ;
+    
+}
+.x1>input{
+    border: none; /* Hide the default border */
+    outline: none; /* Remove the outline when focused */
+    padding: 5px 0; /* Adjust padding as needed */
+    border-bottom: 1px solid black;
+}
+.box1{
+     margin-left:23%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    width:55%;
+    height:120px;
+    background-color:rgb(0, 183, 255);
+    margin-top: 3%;
+    border: none;
+    border-radius: 15px;
+}
+.box1 img{
+    margin:20px;
+    padding: 0px 15px;
+    
+    border-radius:50%;
+
+}
+#rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color: white;
+font-size:20px;
+font-weight:400px;
+}
+.box2{
+    margin:3%;
+    margin-left:23%;
+    width:55%;
+    height:120px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+ .imgg{
+   
+    width:340px;
+    height:170px;
+    margin: 6px;
+    padding:0px;
+
+}
+#h{
+    margin-top:-10px;
+    color:rgb(0, 183, 255);
+    font-weight:200px;
+    font-size:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box11{
+    padding:30px;
+    margin-left:23%;
+   display: flex;
+   justify-content:space-around;
+   align-items:center;
+   width:55%;
+   height:100px;
+   background-color:rgb(0, 183, 255);
+   margin-top:5px;
+   border: none;
+   border-radius: 15px;
+}
+#rate img{
+    border-radius: 50%
+    
+}
+#h1{
+    margin-top:40px;
+    color:rgb(0, 183, 255);
+    font-weight:200px;
+    font-size:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    margin-top: -50px;
+    padding-left: 11px;
+    left:5px;
+    gap:10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:600px;
+}
+   
+#box1{
+   
+    height:450px;
+    width:13.5%;
+    border-radius:5%;
+    border:none;
+    box-shadow:1px 1px 2px 2px rgba(200,200, 200,1.5);
+  
+}
+#b1{
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    height:30%;
+    background-image: url(https://www.savaari.com/assets/img/homepage/roundtrip_services/banners-roundtrip-desktop.webp);
+  
+}
+#b11{
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    height:30%;
+    background-image: url(https://www.savaari.com/assets/img/homepage/oneway_services/banners-one-ways-desktop.webp);
+  
+}
+#b111{
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    height:30%;
+    background-image: url(https://www.savaari.com/assets/img/homepage/local_services/banners-local-desktop.webp);
+  
+}
+#b1111{
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    height:30%;
+    background-image: url(https://www.savaari.com/assets/img/homepage/airport_services/banners-airport-desktop.webp);
+  
+}
+#b2{
+    margin-top: 5px;
+    flex-direction: column;
+    height:70%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:rgb(0, 183, 255);
+    font-size:20px;
+    font-weight:200px;
+}
+
+#b3{
+    margin: 10px;
+    width: 100%;
+    color:black;
+    font-weight:12px;
+    font-size:15px;
+    text-align: center;
+
+}
+#b4{
+    margin-top:20px;
+    height:65px;
+
+}
+
+#box2{
+    background-color:white;
+    height: 450px;
+    width:13.5%;
+    border-radius:5%;
+    background-image: url(https://www.savaari.com/assets/img/homepage/oneway_services/banners-one-ways-desktop.webp);
+
+
+}
+#box3{
+    background-color:white;
+    height:450px;
+    width:13.5%;
+    border-radius:5%;
+    background-image: url(https://www.savaari.com/assets/img/homepage/local_services/banners-local-desktop.webp);
+}
+#box4{
+    background-color:white;
+    height:450px;
+    width:13.5%;
+    border-radius:5%;
+    background-image: url(https://www.savaari.com/assets/img/homepage/airport_services/banners-airport-desktop.webp);
+}
+#main2{
+    margin: auto;
+    height:200PX;
+width:55%;
+display: flex;
+}
+#prg>h3{
+    color:rgb(0, 183, 255);
+    margin-bottom:10px;
+}
+#prg{
+   
+    width:30%;
+    height:100%;
+ 
+    font-size:14px;
+    font-weight:400;
+
+    
+  
+}
+#IG{
+    left:30px;
+    width: 70%;
+    height: 100%;
+}
+#container{
+    margin: auto;
+    justify-content: center;
+    width:55%;
+    height:100%;
+
+}
+#container>h3{margin-top:30px;
+    color:rgb(0, 183, 255);
+    margin-bottom:10px;
+}
+
+#footer{
+    flex-direction:row;
+     margin: auto;
+    padding:20px;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:70%;
+    height:150px;
+    background-color:rgb(0, 183, 255);
+    color:white;
+    font-size:14px;
+    font-weight:500;
+}
+
+#icon{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+#cpy{
+     padding:10px;
+    background-color:rgb(0, 183, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+} #co{
+    background-color:rgb(0, 183, 255);
+}
